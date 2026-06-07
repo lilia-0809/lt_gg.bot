@@ -3,7 +3,7 @@ import random
 import os
 print(os.listdir('images'))
 
-bot = telebot.TeleBot('8253309841:AAGfHqHtSwzZJuj4FYtxdnZcrOiZz-AKz1Y')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start_command(message):
